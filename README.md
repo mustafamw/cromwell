@@ -9,6 +9,8 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 You will also see any lint errors in the console.
 
+Open [http://localhost:3001](http://localhost:3001) to view the page.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
