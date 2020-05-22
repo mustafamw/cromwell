@@ -1,0 +1,23 @@
+@import '../../scss/global/Global';
+
+.login {
+    margin: 0px auto;
+    max-width: 650px;
+    min-width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .message {
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+        &.sucess {
+            color: white;
+            background: $GREEN-A;
+        }
+        &.error {
+            color: white;
+            background: red;
+        }
+    }
+}

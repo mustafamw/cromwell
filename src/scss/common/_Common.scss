@@ -1,0 +1,53 @@
+@import '../Responsive/Responsive';
+@import '../Variables/Variables';
+
+* {
+    outline-width: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit] {
+    width: 100%;
+    padding: 25px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid $GREY-A;
+    margin-bottom: 10px;
+}
+
+.button-green {
+    background: $GREEN-A;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+
+    &:hover {
+        text-decoration: underline;
+        color: white !important;
+    }
+
+    @include respond-to(xxs){
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    @include respond-to(xs){
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
